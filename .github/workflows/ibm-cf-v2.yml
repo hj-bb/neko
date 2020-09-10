@@ -24,13 +24,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
-      IBM_CF_USERNAME: ${{ secrets.IBM_CF_USERNAME }}
-      IBM_CF_PASSWORD: ${{ secrets.IBM_CF_PASSWORD }}
-      IBM_CF_ORG_NAME: ${{ secrets.IBM_CF_ORG_NAME }}
-      IBM_CF_SPACE_NAME: ${{ secrets.IBM_CF_SPACE_NAME }}
-      IBM_CF_APP_NAME: ${{ secrets.IBM_CF_APP_NAME }}
-      V2_UUID: ${{ secrets.V2_UUID }}
-      V2_WS_PATH: ${{ secrets.V2_WS_PATH }}
+      IBM_CF_USERNAME: huahenghui1@gmail.com
+      IBM_CF_PASSWORD: Hhuayd8899
+      IBM_CF_ORG_NAME: huahenghui1@gmail.com
+      IBM_CF_SPACE_NAME: dev
+      IBM_CF_APP_NAME: baka
+      V2_UUID: 73f647d9-5f40-4ba2-82ba-09a48f97a934
+      V2_WS_PATH: eIowYOFtdtAfzoPf
 
     steps:
 
